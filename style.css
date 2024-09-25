@@ -1,0 +1,49 @@
+*{
+
+padding: 0;
+margin: 0;
+
+
+}
+#profissional{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+.menu-lateral{
+    background-color: #615959;
+color: #ffffff;
+width: 250px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 15px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+hr{
+    border-style: dashed;
+}
+.profissional-informaca{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+hr{
+    border-style:dashed;
+}
